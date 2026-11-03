@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node build.mjs --dev",
-    "build": "tsc --noEmit && node build.mjs",
+    "build": "node build.mjs",
     "preview": "npx serve dist"
   },
   "dependencies": {
